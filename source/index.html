@@ -5,9 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Стартовый шаблон</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <h1>Добро пожаловать в Лигу А.</h1>
+  <header class="header">
+    <div class="header__logo logo">
+      <span class="logo__text">Телеканал</span>
+      <svg class="logo__svg"></svg>
+      <span class="logo__text">представляет</span>
+    </div>
+    <div class="header__title">
+      <h1>Подвеска  «Знаки Зодиака»</h1>
+      <span>Хит продаж</span>
+    </div>
+    <div class="header__contact contact">
+      <a class="contact__phone"  href="tel:8-800-775-11-20">8-800-775-11-20</a>
+      <button class="contact__buy buy">Купить</button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main__description description">
+      <h2>Драгоценный талисман</h2>
+      <figure class="description__pendant">
+        <img src="#" alt="Знак зодиака Близнецы">
+        <img src="#" alt="Кулон Близнецы">
+        <figcaption class="description__about"><h3>Близнецы</h3><span>Камни: фианиты</span></figcaption>
+      </figure>
+      <div class="description__zodiac zodiac">
+        <label class="zodiac__label">
+          <input type="radio" name="zodiac">
+        </label>
+      <!-- TODO: сделать 12 штук -->
+      </div>
+    </section>
+    <section class="main__price price">
+      <div class="price__discount">
+        <span>Скидка</span><span>-50%</span>
+      </div>
+      <p class="price__current">
+        <span>Цена:</span><span>990</span><svg></svg>
+      </p>
+      <p class="price__old">
+        <span>Старая цена:</span><span>2 499</span><svg></svg>
+      </p>
+    </section>
+    <section class="main__order order">
+      <h3 class="order__title">Оформите заказ</h3>
+      <p>
+        <span>Знак зодиака: </span><span>Близнецы</span>
+      </p>
+      <label for="order-name">Введите имя</label>
+      <input type="text" id="order-name" placeholder="Введите имя">
+      <!-- TODO: добавить имя Ирина -->
+      <label class="visually-hidden" for="order-phone">Введите номер телефона</label>
+      <input type="tel" id="order-phone" placeholder="Введите телефон">
+
+      <div class="order__location"><svg></svg><span>Москва</span></div>
+      <label class="order__personal" for="order-personal">
+        <input type="checkbox" id="order-personal" name="order__checkbox">
+      </label>
+      <button class="order__buy buy"></button>
+    </section>
+
+
+  </main>
+  <script src="js/script.js"></script>
 </body>
 </html>
