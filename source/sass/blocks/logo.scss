@@ -1,0 +1,26 @@
+.logo__link {
+  display: block;
+  cursor: pointer;
+  position: relative;
+
+  &::before,
+  &::after {
+    position: absolute;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #a1a1a1;
+  }
+
+  &::before {
+    content: "Телеканал";
+    top: -9px;
+    left: 102px;
+  }
+
+  &::after {
+    content: "представляет";
+    bottom: -6px;
+    right: 0;
+  }
+}
