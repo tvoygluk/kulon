@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -40,13 +41,5 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: $white-blueish;
-  background: url("../img/bg-stars.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1920px 100%;
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
-
-  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../img/bg-stars@2x.png");
-  }
 }

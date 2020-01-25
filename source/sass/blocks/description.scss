@@ -1,0 +1,17 @@
+.description {
+  position: relative;
+
+  h2 {
+    margin: 0;
+    padding: 9px 28px;
+    position: absolute;
+    top: 18px;
+    right: -365px;
+    display: inline-block;
+    background-color: $yellow;
+    font-family: "Globerx bold", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    border-radius: 23px;
+  }
+}
