@@ -8,6 +8,15 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -21,4 +30,23 @@ input[type="radio"].visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: $mobile-width;
+  max-width: $desktop-width;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white-blueish;
+  background: url("../img/bg-stars.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1920px 100%;
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg-stars@2x.png");
+  }
 }
