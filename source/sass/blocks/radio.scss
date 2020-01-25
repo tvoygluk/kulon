@@ -1,0 +1,13 @@
+.radio__input {
+  position: absolute;
+  margin-left: 10px;
+  appearance: none;
+}
+
+.radio__label {
+  background-color: $gray;
+}
+
+.radio__input:checked ~ .radio__label {
+  background-color: $yellow;
+}

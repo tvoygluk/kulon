@@ -1,5 +1,8 @@
 .description {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   h2 {
     margin: 0;

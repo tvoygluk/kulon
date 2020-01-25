@@ -1,0 +1,19 @@
+.zodiac {
+  padding: 25px 45px 23px 41px;
+  width: 537px;
+  height: 210px;
+  background-color: $white;
+  border-radius: 10px 10px 0 0 ;
+
+  h3 {
+    margin: 0;
+    font-family: "Globerx bold", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.zodiac__select {
+  display: flex;
+  flex-wrap: wrap;
+}
