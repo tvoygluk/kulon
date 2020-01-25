@@ -6,17 +6,6 @@
   flex-direction: column;
   width: 400px;
 
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   bottom: 0;
-  //   right: 0;
-  //   width: 220px;
-  //   height: 378px;
-  //   background-color: red;
-  //   opacity: 0.5;
-  // }
-
   & img {
     flex-shrink: 0;
   }

@@ -1,6 +1,5 @@
 .main {
   width: 100%;
-
   background: url("../img/bg-stars.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -19,6 +18,10 @@
   height: 712px;
   display: flex;
   justify-content: space-between;
+}
 
+.main__price {
+  margin-left: auto;
+  margin-right: auto;
 }
 
