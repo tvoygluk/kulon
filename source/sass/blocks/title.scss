@@ -1,0 +1,21 @@
+.title {
+  h1 {
+    margin: 0;
+    position: relative;
+    font-family: "Globerx bold", "Arial", sans-serif;
+    font-size: 40px;
+
+    &::before {
+      content: "Хит продаж";
+      position: absolute;
+      top: 15px;
+      right: -2px;
+      font-size: 14px;
+      display: inline-block;
+      padding: 5px 19px;
+      border-radius: 14px;
+      background-color: $yellow;
+    }
+  }
+}
+

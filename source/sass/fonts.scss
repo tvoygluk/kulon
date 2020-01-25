@@ -12,3 +12,9 @@
   font-display: fallback;
 }
 
+@font-face {
+  font-family: "Globerx Bold";
+  src: url("../fonts/GloberxBold.woff2") format("woff2"), url("../fonts/GloberxBold.woff") format("woff");
+  font-weight: normal;
+  font-display: fallback;
+}
