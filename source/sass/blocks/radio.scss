@@ -1,13 +1,28 @@
-.radio__input {
-  position: absolute;
-  margin-left: 10px;
-  appearance: none;
+.radio {
+  margin-left: 28px;
+
+  input {
+    position: absolute;
+    margin-left: 10px;
+    appearance: none;
+
+    &:checked ~ .radio__label {
+      background-color: $yellow;
+    }
+  }
+
+  &:nth-of-type(4n):not(:last-of-type) {
+    margin-right: 50px;
+  }
 }
 
 .radio__label {
+  padding: 3px 17px;
+  display: inline-block;
+  font-family: "Glober Semi Bold", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 31px;
+  border-radius: 17px;
   background-color: $gray;
 }
 
-.radio__input:checked ~ .radio__label {
-  background-color: $yellow;
-}
