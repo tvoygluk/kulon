@@ -1,5 +1,6 @@
 .order {
   position: relative;
+
   form {
     padding: 44px 25px;
     position: relative;
@@ -81,6 +82,18 @@
       background-image: url("../img/maps-and-flags@2x.png");
     }
   }
+
+  &:hover {
+    color:$blue;
+
+    &::before {
+      background-image: url("../img/maps-and-flags-blue.png");
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/maps-and-flags-blue@2x.png");
+      }
+    }
+  }
 }
 
 .order__check {
@@ -107,6 +120,26 @@
   box-shadow: 7px 10px 8px 2px rgba(0, 0, 0, 0.02);
   border-radius: 10px;
   border: 1px solid $white-border;
+}
+
+.order__region {
+  display: inline-block;
+  display: none;
+  padding: 5px 9px;
+  position: absolute;
+  bottom: 229px;
+  left: 84px;
+  box-shadow: 0 0 23px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 13px 11px 11px 0;
+  color: $gray--darkest;
+  font-family: "Glober Semi Bold", "Arial", sans-serif;
+  font-size: 12px;
+  background-color: $white;
+}
+
+.order__city {
+  color: $blue;
+  text-decoration: underline;
 }
 
 @media (max-width: $tablet-width) {
@@ -142,6 +175,10 @@
   .order__error {
     bottom: 12px;
     font-family: "Glober Bold", "Arial", sans-serif;
+  }
+
+  .order__region {
+    bottom: 190px;
   }
 }
 
