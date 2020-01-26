@@ -103,17 +103,15 @@
         <div class="order__choice choice">
           <span class="choice__sign">Знак зодиака: </span><p>Близнецы</p>
         </div>
-        <div class="choice__name">
-          <label class="visually-hidden" for="choice-name">Введите имя</label>
-          <input type="text" id="choice-name" placeholder="Введите имя">
+        <div class="choice__name js-choice-input">
+          <label class="choice__label js-choice-label" for="choice-name">Введите имя</label>
+          <input type="text" id="choice-name" placeholder="Введите имя" value="Ирина" required="">
         </div>
-        <!-- TODO: добавить имя Ирина -->
         <div class="choice__phone">
-          <label class="visually-hidden" for="choice-phone">Введите номер телефона</label>
-          <input type="tel" id="choice-phone" placeholder="Введите телефон">
+          <label class="choice__label" for="choice-phone">Введите телефон</label>
+          <input type="tel" id="choice-phone" placeholder="Введите телефон" required="">
         </div>
-
-        <div class="order__location"><svg></svg><span>Москва</span></div>
+        <div class="order__location"><span>Москва</span></div>
         <label class="order__personal" for="order-personal">
           <input type="checkbox" id="order-personal" name="order__checkbox">
         </label>
