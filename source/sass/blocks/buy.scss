@@ -12,4 +12,10 @@
   text-transform: uppercase;
   box-shadow: 11px 14px 31px 7px rgba(0, 0, 0, 0.13);
   cursor: pointer;
+
+  &--order {
+    width: 310px;
+    height: 76px;
+    border-radius: 38px;
+  }
 }
