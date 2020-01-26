@@ -33,8 +33,8 @@
         <section class="main__description description">
             <h2>Драгоценный талисман</h2>
             <figure class="description__pendant pendant">
-              <img src="img/zodiac-gemini.png" srcset="img/zodiac-gemini@2x.png 2x" width="159" height="207" alt="Знак зодиака Близнецы">
-              <img src="img/gemini.png" srcset="img/gemini@2x.png 2x" width="220" height="377" alt="Кулон Близнецы">
+              <img src="img/zodiac-gemini.png" srcset="img/zodiac-gemini@2x.png 2x" width="159" height="207" alt="Знак зодиака">
+              <img src="img/gemini.png" srcset="img/gemini@2x.png 2x" width="220" height="377" alt="Кулон">
               <figcaption class="pendant__about"><h3>Близнецы</h3><p>Камни: <span class="pendant__about-desktop">фианиты</span><span class="pendant__about-mobile">топаз Swiss Blue, фианит</span></p></figcaption>
             </figure>
           <div class="description__zodiac zodiac">
@@ -104,26 +104,40 @@
         </section>
       </div>
       <section class="main__order order">
-        <h3>Оформите заказ</h3>
-        <div class="order__sign">
-          <span class="order__sign-choice">Знак зодиака: </span><p>Близнецы</p>
-        </div>
-        <div class="order__choice choice">
-          <div class="choice__name js-choice-input">
-            <label class="choice__label js-choice-label" for="choice-name">Введите имя</label>
-            <input type="text" id="choice-name" placeholder="Введите имя" value="Ирина" required="">
+        <form>
+          <h3>Оформите заказ</h3>
+          <div class="order__sign">
+            <span class="order__sign-choice">Знак зодиака: </span><p>Близнецы</p>
           </div>
-          <div class="choice__phone">
-            <label class="choice__label" for="choice-phone">Введите телефон</label>
-            <input type="tel" id="choice-phone" placeholder="Введите телефон" required="">
+          <div class="order__choice choice">
+            <div class="choice__name js-choice-input">
+              <label class="choice__label js-choice-label" for="choice-name">Введите имя</label>
+              <input type="text" id="choice-name" placeholder="Введите имя" value="Ирина" required="">
+            </div>
+            <div class="choice__phone">
+              <label class="choice__label" for="choice-phone">Введите телефон</label>
+              <input type="tel" id="choice-phone" placeholder="Введите телефон" required="">
+            </div>
           </div>
+          <a href="#" class="order__location">Москва</a>
+          <div class="order__check check">
+            <input id="check-personal" type="checkbox" name="agree" value="agree" tabindex="-1">
+            <label class="check__label" for="check-personal" tabindex="0">Нажимая кнопку «Оформить заказ», я даю согласие на обработку персональных данных, согласие с Политикой обработки персональных данных и Пользовательским соглашением.</label>
+          </div>
+          <button class="order__buy buy buy--order">Купить</button>
+          <span class="order__error">Извините, что-то пошло не так</span>
+
+        </form>
+        <div class="order__success success">
+          <button class="success__close"></button>
+          <a href="#" class="success__link" tabindex="0">
+            <img src="img/logo-mobile.png" srcset="img/logo-mobile@2x.png 2x" width="60" height="60" alt="Логотип Shop and Show">
+          </a>
+          <h3>Спасибо за заказ</h3>
+          <span class="success__your-num">Номер вашего заказа</span>
+          <span class="success__gener-num">43781</span>
+          <span class="success__operator">Оператор свяжется с вами через<br> несколько минут</span>
         </div>
-        <a href="#" class="order__location">Москва</a>
-        <div class="order__check check">
-          <input id="check-personal" type="checkbox" name="agree" value="agree" tabindex="-1">
-          <label class="check__label" for="check-personal" tabindex="0">Нажимая кнопку «Оформить заказ», я даю согласие на обработку персональных данных, согласие с Политикой обработки персональных данных и Пользовательским соглашением.</label>
-        </div>
-        <button class="order__buy buy buy--order">Купить</button>
       </section>
     </div>
 

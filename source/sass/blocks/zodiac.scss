@@ -17,13 +17,13 @@
 
 @media (max-width: $tablet-width) {
   .zodiac {
+    padding: 0 0 0 18px;
     position: absolute;
-    bottom: -169px;
+    bottom: -155px;
     left: 0;
-    width: 310px;
-    padding-left: 21px;
-    padding-right: 0;
-    height: 125px;
+    width: 307px;
+    height: 88px;
+    z-index: 1;
 
     h3 {
       display: none;

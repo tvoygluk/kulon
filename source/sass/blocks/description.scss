@@ -31,7 +31,7 @@
   .description {
     margin-top: 65px;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 
     h2 {
       position: static;
@@ -42,4 +42,8 @@
       border-radius: 10px;
     }
   }
+
+  // .description__pendant {
+  //   margin-bottom: 15px;
+  // }
 }
