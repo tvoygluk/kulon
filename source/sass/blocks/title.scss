@@ -19,3 +19,14 @@
   }
 }
 
+@media (max-width: $tablet-width) {
+  .title {
+    h1 {
+      position: absolute;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}

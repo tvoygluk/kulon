@@ -13,9 +13,22 @@
 }
 
 .header__wrap {
-  max-width: 1108px;
+  max-width: $desktop-wrap-width;
+  padding: 0 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
 
+@media (max-width: $tablet-width) {
+  .header {
+    padding-top: 7px;
+    position: relative;
+    height: 50px;
+  }
+
+  .header__wrap {
+    max-width: $mobile-width;
+    padding: 0;
+  }
 }

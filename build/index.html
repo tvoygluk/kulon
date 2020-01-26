@@ -12,15 +12,18 @@
     <div class="header__wrap">
       <div class="header__logo logo">
         <a href="#" class="logo__link" tabindex="0">
-          <img src="img/logo-desktop.png" srcset="img/logo-desktop@2x.png 2x" width="385" height="81" alt="Логотип Shop&Show">
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/logo-mobile.png 1x, img/logo-mobile@2x.png 2x">
+            <img src="img/logo-desktop.png" srcset="img/logo-desktop@2x.png 2x" width="385" height="81" alt="Логотип Shop and Show">
+          </picture>
         </a>
       </div>
       <div class="header__title title">
         <h1>Подвеска<br> «Знаки Зодиака»</h1>
       </div>
       <div class="header__contact contact">
-        <a class="contact__phone" href="tel:8-800-775-11-20">8-800-775-11-20</a>
-        <button class="contact__buy buy">Купить</button>
+        <a class="contact__phone" href="tel:8-800-775-11-20"><span class="contact__phone-mobile">Заказать по телефону</span><span class="contact__phone-desktop">8-800-775-11-20</span></a>
+        <button class="buy contact__buy">Купить</button>
       </div>
     </div>
   </header>
@@ -118,7 +121,6 @@
           <input id="check-personal" type="checkbox" name="agree" value="agree" tabindex="-1">
           <label class="check__label" for="check-personal" tabindex="0">Нажимая кнопку «Оформить заказ», я даю согласие на обработку персональных данных, согласие с Политикой обработки персональных данных и Пользовательским соглашением.</label>
         </div>
-
         <button class="order__buy buy buy--order">Купить</button>
       </section>
     </div>

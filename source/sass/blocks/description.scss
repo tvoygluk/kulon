@@ -18,3 +18,12 @@
     border-radius: 23px;
   }
 }
+
+@media (max-width: $desktop-small-width) {
+  .description {
+    h2 {
+      right: -150px;
+    }
+  }
+}
+

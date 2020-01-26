@@ -35,7 +35,7 @@ input[type="radio"].visually-hidden {
 
 body {
   margin: 0 auto;
-  min-width: $mobile-width;
+  min-width: $desktop-width-freeze;
   max-width: $desktop-width;
   display: flex;
   flex-direction: column;
