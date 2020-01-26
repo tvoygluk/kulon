@@ -43,6 +43,15 @@
 }
 
 @media (max-width: $tablet-width) {
+  .main {
+    background: url("../img/bg-stars-mobile.png");
+    background-size: 768px 100%;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg-stars-mobile@2x.png");
+    }
+  }
+
   .main__price {
     margin: 73px 0 0 -53px;
   }
@@ -53,11 +62,13 @@
 
   .main__wrap {
     max-width: $mobile-width;
+    height: inherit;
     padding: 0;
     flex-direction: column;
   }
 
   .main__order {
     margin-top: 0;
+    margin-bottom: 20px;
   }
 }

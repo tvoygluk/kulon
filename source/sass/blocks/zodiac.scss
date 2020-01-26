@@ -18,6 +18,15 @@
 @media (max-width: $tablet-width) {
   .zodiac {
     position: absolute;
-    display: none;
+    bottom: -169px;
+    left: 0;
+    width: 310px;
+    padding-left: 21px;
+    padding-right: 0;
+    height: 125px;
+
+    h3 {
+      display: none;
+    }
   }
 }
