@@ -76,3 +76,33 @@
 .order__check {
   margin-bottom: 28px;
 }
+
+@media (max-width: $tablet-width) {
+  .order {
+    padding: 15px 21px 34px;
+    width: 320px;
+    height: 491px;
+
+    h3 {
+      margin-bottom: auto;
+      font-size: 27px;
+    }
+  }
+
+  .order__sign {
+    display: none;
+  }
+
+  .order__check {
+    margin-bottom: 17px;
+  }
+
+  .order__location {
+    margin-bottom: 16px;
+  }
+
+  .order__choice {
+    margin-bottom: 7px;
+  }
+}
+

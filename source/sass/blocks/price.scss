@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 118px;
 }
 
 .price__discount {
@@ -120,7 +119,57 @@
 }
 
 @media (max-width: $tablet-width) {
+  .price__discount {
+    margin-bottom: 0;
+    width: 90px;
+    height: 43px;
+    border-radius: 22px;
 
-  
+    &::before {
+      top: 5px;
+      left: 21px;
+      font-size: 12px;
+    }
+
+    &::after {
+      bottom: 3px;
+      left: 22px;
+      font-size: 20px;
+    }
+  }
+
+  .price__current-price,
+  .price__old-price {
+    display: none;
+  }
+
+  .price__current {
+    margin-bottom: 0;
+
+    p {
+      font-size: 31px;
+
+      &::after {
+        top: 9px;
+        right: -15px;
+        width: 12px;
+        height: 19px;
+      }
+    }
+  }
+
+  .price__old {
+    p {
+      font-size: 18px;
+
+      &::after {
+        top: 4px;
+        right: -10px;
+        width: 8px;
+        height: 13px;
+      }
+    }
+  }
+
 }
 

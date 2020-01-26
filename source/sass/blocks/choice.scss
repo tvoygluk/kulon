@@ -60,3 +60,24 @@
   }
 }
 
+@media (max-width: $tablet-width) {
+  .choice__label {
+    font-size: 10px;
+  }
+
+  .choice__name,
+  .choice__phone {
+    input {
+      width: 278px;
+      font-size: 15px;
+
+      &::placeholder {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .choice__name {
+    margin-bottom: 13px;
+  }
+}

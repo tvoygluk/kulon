@@ -29,78 +29,80 @@
   </header>
   <main class="main">
     <div class="main__wrap">
-      <section class="main__description description">
-          <h2>Драгоценный талисман</h2>
-          <figure class="description__pendant pendant">
-            <img src="img/zodiac-gemini.png" srcset="img/zodiac-gemini@2x.png 2x" width="159" height="207" alt="Знак зодиака Близнецы">
-            <img src="img/gemini.png" srcset="img/gemini@2x.png 2x" width="220" height="377" alt="Кулон Близнецы">
-            <figcaption class="pendant__about"><h3>Близнецы</h3><p>Камни: <span class="pendant__about-desktop">фианиты</span><span class="pendant__about-mobile">топаз Swiss Blue, фианит</span></p></figcaption>
-          </figure>
-        <div class="description__zodiac zodiac">
-          <h3>Выберите знак зодиака:</h3>
-          <ul class="zodiac__select select">
-            <li class="select__radio radio">
-              <input id="aries" type="radio" name="zodiac" value="aries" tabindex="-1">
-              <label class="radio__label" for="aries" tabindex="0">Овен</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="taurus" type="radio" name="zodiac" value="taurus" tabindex="-1">
-              <label class="radio__label" for="taurus" tabindex="0">Телец</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="gemini" type="radio" name="zodiac" value="gemini" tabindex="-1" checked="">
-              <label class="radio__label" for="gemini" tabindex="0">Близнецы</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="cancer" type="radio" name="zodiac" value="cancer" tabindex="-1">
-              <label class="radio__label" for="cancer" tabindex="0">Рак</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="leo" type="radio" name="zodiac" value="leo" tabindex="-1">
-              <label class="radio__label" for="leo" tabindex="0">Лев</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="virgo" type="radio" name="zodiac" value="virgo" tabindex="-1">
-              <label class="radio__label" for="virgo" tabindex="0">Дева</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="libra" type="radio" name="zodiac" value="libra" tabindex="-1">
-              <label class="radio__label" for="libra" tabindex="0">Весы</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="scorpio" type="radio" name="zodiac" value="scorpio" tabindex="-1">
-              <label class="radio__label" for="scorpio" tabindex="0">Скорпион</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="sagittarius" type="radio" name="zodiac" value="sagittarius" tabindex="-1">
-              <label class="radio__label" for="sagittarius" tabindex="0">Стрелец</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="capricorn" type="radio" name="zodiac" value="capricorn" tabindex="-1">
-              <label class="radio__label" for="capricorn" tabindex="0">Козерог</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="aquarius" type="radio" name="zodiac" value="aquarius" tabindex="-1">
-              <label class="radio__label" for="aquarius" tabindex="0">Водолей</label>
-            </li>
-            <li class="select__radio radio">
-              <input id="pisces" type="radio" name="zodiac" value="pisces" tabindex="-1">
-              <label class="radio__label" for="pisces" tabindex="0">Рыбы</label>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="main__price price">
-        <div class="price__discount"></div>
-        <div class="price__current">
-          <span class="price__current-price">Цена:</span>
-          <p>990</p>
-        </div>
-        <div class="price__old">
-          <span class="price__old-price">Старая цена:</span>
-          <p>2 499</p>
-        </div>
-      </section>
+      <div class="main__wrap-mobile">
+        <section class="main__description description">
+            <h2>Драгоценный талисман</h2>
+            <figure class="description__pendant pendant">
+              <img src="img/zodiac-gemini.png" srcset="img/zodiac-gemini@2x.png 2x" width="159" height="207" alt="Знак зодиака Близнецы">
+              <img src="img/gemini.png" srcset="img/gemini@2x.png 2x" width="220" height="377" alt="Кулон Близнецы">
+              <figcaption class="pendant__about"><h3>Близнецы</h3><p>Камни: <span class="pendant__about-desktop">фианиты</span><span class="pendant__about-mobile">топаз Swiss Blue, фианит</span></p></figcaption>
+            </figure>
+          <div class="description__zodiac zodiac">
+            <h3>Выберите знак зодиака:</h3>
+            <ul class="zodiac__select select">
+              <li class="select__radio radio">
+                <input id="aries" type="radio" name="zodiac" value="aries" tabindex="-1">
+                <label class="radio__label" for="aries" tabindex="0">Овен</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="taurus" type="radio" name="zodiac" value="taurus" tabindex="-1">
+                <label class="radio__label" for="taurus" tabindex="0">Телец</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="gemini" type="radio" name="zodiac" value="gemini" tabindex="-1" checked="">
+                <label class="radio__label" for="gemini" tabindex="0">Близнецы</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="cancer" type="radio" name="zodiac" value="cancer" tabindex="-1">
+                <label class="radio__label" for="cancer" tabindex="0">Рак</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="leo" type="radio" name="zodiac" value="leo" tabindex="-1">
+                <label class="radio__label" for="leo" tabindex="0">Лев</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="virgo" type="radio" name="zodiac" value="virgo" tabindex="-1">
+                <label class="radio__label" for="virgo" tabindex="0">Дева</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="libra" type="radio" name="zodiac" value="libra" tabindex="-1">
+                <label class="radio__label" for="libra" tabindex="0">Весы</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="scorpio" type="radio" name="zodiac" value="scorpio" tabindex="-1">
+                <label class="radio__label" for="scorpio" tabindex="0">Скорпион</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="sagittarius" type="radio" name="zodiac" value="sagittarius" tabindex="-1">
+                <label class="radio__label" for="sagittarius" tabindex="0">Стрелец</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="capricorn" type="radio" name="zodiac" value="capricorn" tabindex="-1">
+                <label class="radio__label" for="capricorn" tabindex="0">Козерог</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="aquarius" type="radio" name="zodiac" value="aquarius" tabindex="-1">
+                <label class="radio__label" for="aquarius" tabindex="0">Водолей</label>
+              </li>
+              <li class="select__radio radio">
+                <input id="pisces" type="radio" name="zodiac" value="pisces" tabindex="-1">
+                <label class="radio__label" for="pisces" tabindex="0">Рыбы</label>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main__price price">
+          <div class="price__discount"></div>
+          <div class="price__current">
+            <span class="price__current-price">Цена:</span>
+            <p>990</p>
+          </div>
+          <div class="price__old">
+            <span class="price__old-price">Старая цена:</span>
+            <p>2 499</p>
+          </div>
+        </section>
+      </div>
       <section class="main__order order">
         <h3>Оформите заказ</h3>
         <div class="order__sign">
