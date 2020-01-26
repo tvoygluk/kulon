@@ -1,9 +1,22 @@
 .order {
+  padding: 44px 25px;
   display: flex;
   flex-direction: column;
-  /* Style for "Прямоуголь" */
-width: 359px;
-height: 535px;
-border-radius: 10px;
-background-color: #ffffff;
+  align-items: center;
+  width: 359px;
+  height: 535px;
+  border-radius: 10px;
+  background-color: $white;
+
+  h3 {
+    margin: 0 0 29px 0;
+    font-family: "Glober Heavy", "Arial", sans-serif;
+    font-size: 30px;
+    line-height: 31px;
+  }
+}
+
+.order__choice {
+  margin-bottom: 27px;
+  align-self: flex-start;
 }

@@ -26,3 +26,11 @@
   font-display: fallback;
 }
 
+@font-face {
+  font-family: "Glober Heavy";
+  src: url("../fonts/GloberHeavy.woff2") format("woff2"), url("../fonts/GloberHeavy.woff") format("woff");
+  font-weight: normal;
+  font-display: fallback;
+}
+
+

@@ -99,15 +99,19 @@
         </div>
       </section>
       <section class="main__order order">
-        <h3 class="order__title">Оформите заказ</h3>
-        <p>
-          <span>Знак зодиака: </span><span>Близнецы</span>
-        </p>
-        <label for="order-name">Введите имя</label>
-        <input type="text" id="order-name" placeholder="Введите имя">
+        <h3>Оформите заказ</h3>
+        <div class="order__choice choice">
+          <span class="choice__sign">Знак зодиака: </span><p>Близнецы</p>
+        </div>
+        <div class="choice__name">
+          <label class="visually-hidden" for="choice-name">Введите имя</label>
+          <input type="text" id="choice-name" placeholder="Введите имя">
+        </div>
         <!-- TODO: добавить имя Ирина -->
-        <label class="visually-hidden" for="order-phone">Введите номер телефона</label>
-        <input type="tel" id="order-phone" placeholder="Введите телефон">
+        <div class="choice__phone">
+          <label class="visually-hidden" for="choice-phone">Введите номер телефона</label>
+          <input type="tel" id="choice-phone" placeholder="Введите телефон">
+        </div>
 
         <div class="order__location"><svg></svg><span>Москва</span></div>
         <label class="order__personal" for="order-personal">
