@@ -40,3 +40,49 @@
     font-size: 16px;
   }
 }
+
+.pendant__about-mobile {
+  display: none;
+}
+
+@media (max-width: $tablet-width) {
+  .pendant {
+    width: 100%;
+    padding-left: 144px;
+    padding-top: 7px;
+
+    & img:first-of-type {
+      top: 33px;
+      left: 95px;
+      width: 76px;
+      height: 99px;
+    }
+
+    & img:last-of-type {
+      width: 124px;
+      height: 213px;
+    }
+  }
+
+  .pendant__about {
+    margin-left: -28px;
+
+    h3 {
+      font-size: 13px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .pendant__about-mobile {
+    display: inline;
+  }
+
+  .pendant__about-desktop {
+    display: none;
+  }
+}
+
+

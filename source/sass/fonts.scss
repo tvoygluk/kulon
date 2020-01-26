@@ -33,4 +33,9 @@
   font-display: fallback;
 }
 
-
+@font-face {
+  font-family: "Glober Bold";
+  src: url("../fonts/GloberBold.woff2") format("woff2"), url("../fonts/GloberBold.woff") format("woff");
+  font-weight: normal;
+  font-display: fallback;
+}

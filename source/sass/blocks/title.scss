@@ -23,6 +23,10 @@
   .title {
     h1 {
       position: absolute;
+      top: 55px;
+      left: calc(50% - 95px);
+      font-size: 24px;
+      text-align: center;
 
       &::before {
         display: none;
