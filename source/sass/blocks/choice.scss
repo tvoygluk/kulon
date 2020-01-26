@@ -1,25 +1,7 @@
 .choice {
   display: flex;
+  flex-direction: column;
   align-items: center;
-
-  p {
-    margin: 0;
-    padding: 0 15px;
-    font-family: "Glober Semi Bold", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    border-radius: 13px;
-    background-color: $yellow;
-  }
-}
-
-.choice__sign {
-  margin-right: 5px;
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 18px;
-  line-height: 31px;
-  font-weight: 900;
-  letter-spacing: 0.18px;
 }
 
 .choice__name,
